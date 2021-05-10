@@ -5,7 +5,7 @@ const ContactSection = styled.section`
         padding: 50px;
         text-align: left;
         color: #FFFFFE;
-        background: linear-gradient(130deg, #FED9DA, #F25F4C);
+        background: linear-gradient(130deg, #FEB692, #F25F4C);
 `
 
 const ContactForm = styled.form`
