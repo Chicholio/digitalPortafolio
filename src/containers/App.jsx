@@ -19,6 +19,8 @@ import FooterLogo from '../components/footer/FooterLogo';
 import FooterText from '../components/footer/FooterText';
 import FooterSocial from '../components/footer/FooterSocial';
 import Testimonials from '../components/Testimonials';
+import Proyects from '../components/Proyects';
+import ProyectsNiko from '../components/proyects/ProyectsNiko';
 
 
 const GlobalStyle = createGlobalStyle`
@@ -39,9 +41,12 @@ const App = () => {
                 <HeaderButton />
             </Header>
             <Hero>
-                <HeroText />
                 <HeroIMG />
+                <HeroText />
             </Hero>
+            <Proyects>
+                <ProyectsNiko />
+            </Proyects>
             <Services>
                 <ServicesDesign />
                 <ServicesDevelopment />

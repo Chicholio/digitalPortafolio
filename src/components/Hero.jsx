@@ -5,6 +5,7 @@ const HeroFlex = styled.section`
         display: flex;
         padding: 10px 50px 10px 50px;
         color: #FFFFFE;
+        flex-direction: row-reverse;
         justify-content: space-between;
 `
 
